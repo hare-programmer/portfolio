@@ -730,7 +730,7 @@ img {
   }
 }
 .wpo-page-title .wpo-breadcumb-wrap ol li:after {
-  content: "/";
+  content: "/portfolio";
   position: relative;
   left: 7px;
 }
