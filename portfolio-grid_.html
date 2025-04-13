@@ -70,17 +70,14 @@
                                     <button class="menu-close"><i class="ti-close"></i></button>
                                     <ul class="nav navbar-nav mb-2 mb-lg-0">
                                         <li class="menu-item-has-children">
-                                            <a class="active" href="/">Home</a>
-                                        </li>
+                                            <a href="/">Home</a>
                                         <li>
-                                            <a href="about/index">About</a>
+                                            <a href="about.html">About</a>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="work/index">Portfolio</a>
+                                            <a class="active" href="portfolio-grid.html">Portfolio</a>
                                         </li>
                                     </ul>
-
-
                                 </div><!-- end of nav-collapse -->
                             </div>
                             <div class="col-lg-2 col-md-2 col-2">
@@ -106,10 +103,10 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="wpo-breadcumb-wrap">
-                            <h2>404</h2>
+                            <h2>Portfolio Grid</h2>
                             <ol class="wpo-breadcumb-wrap">
                                 <li><a href="/">Home</a></li>
-                                <li>404</li>
+                                <li>Portfolio</li>
                             </ol>
                         </div>
                     </div>
@@ -118,27 +115,144 @@
         </section>
         <!-- end page-title -->
 
-        <!-- start error-404-section -->
-        <section class="error-404-section section-padding">
+        <!-- protfolio area start -->
+        <div class="wpo-protfolio-area section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col col-xs-12">
-                        <div class="content clearfix">
-                            <div class="error">
-                                <img src="assets/images/error-404.svg" alt>
+                    <div class="col col-xs-12 sortable-gallery">
+                        <div class="gallery-filters">
+                            <ul>
+                                <li><a data-filter="*" href="#" class="current">All Product</a></li>
+                                <li><a data-filter=".BranDing" href="#">Branding </a></li>
+                                <li><a data-filter=".IllustAtor" href="#">Illustator</a></li>
+                                <li><a data-filter=".3d" href="#">3D</a></li>
+                                <li><a data-filter=".Marketing" href="#">Marketing</a></li>
+                            </ul>
+                        </div>
+                        <div class="gallery-container gallery-fancybox masonry-gallery row">
+                            <div class="col-lg-6 col-md-6 col-12 custom-grid IllustAtor 3d Marketing wow zoomIn"
+                                data-wow-duration="2000ms">
+                                <div class="">
+                                    <div class="wpo-protfolio-single">
+                                        <div class="wpo-protfolio-img">
+                                            <img src="assets/images/protfolio/img-2.jpg" alt="">
+                                        </div>
+                                        <div class="wpo-protfolio-text">
+                                            <h2>Minimalism</h2>
+                                            <span>Illustration . Art Direction</span>
+                                            <a href="portfolio-single.html">View Work</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="error-message">
-                                <h3>Oops! Page Not Found!</h3>
-                                <p>We’re sorry but we can’t seem to find the page you requested. This might be because
-                                    you have typed the web address incorrectly.</p>
-                                <a href="/" class="theme-btn-s2">Back to home</a>
+                            <div class="col-lg-6 col-md-6 col-12 custom-grid BranDing IllustAtor 3d wow zoomIn"
+                                data-wow-duration="2000ms">
+                                <div class="">
+                                    <div class="wpo-protfolio-single">
+                                        <div class="wpo-protfolio-img">
+                                            <img src="assets/images/protfolio/img-6.jpg" alt="">
+                                        </div>
+                                        <div class="wpo-protfolio-text">
+                                            <h2>Abstract Art</h2>
+                                            <span>Illustration . Art Direction</span>
+                                            <a href="portfolio-single.html">View Work</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12 custom-grid IllustAtor Marketing wow zoomIn"
+                                data-wow-duration="2000ms">
+                                <div class="">
+                                    <div class="wpo-protfolio-single">
+                                        <div class="wpo-protfolio-img">
+                                            <img src="assets/images/protfolio/img-7.jpg" alt="">
+                                        </div>
+                                        <div class="wpo-protfolio-text">
+                                            <h2>3D Project</h2>
+                                            <span>Illustration . Art Direction</span>
+                                            <a href="portfolio-single.html">View Work</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12 custom-grid BranDing 3d wow zoomIn"
+                                data-wow-duration="2000ms">
+                                <div class="">
+                                    <div class="wpo-protfolio-single">
+                                        <div class="wpo-protfolio-img">
+                                            <img src="assets/images/protfolio/img-8.jpg" alt="">
+                                        </div>
+                                        <div class="wpo-protfolio-text">
+                                            <h2>Modern BG</h2>
+                                            <span>Illustration . Art Direction</span>
+                                            <a href="portfolio-single.html">View Work</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12 custom-grid IllustAtor Marketing wow zoomIn"
+                                data-wow-duration="2000ms">
+                                <div class="">
+                                    <div class="wpo-protfolio-single">
+                                        <div class="wpo-protfolio-img">
+                                            <img src="assets/images/protfolio/img-5.jpg" alt="">
+                                        </div>
+                                        <div class="wpo-protfolio-text">
+                                            <h2>Product Design</h2>
+                                            <span>Illustration . Art Direction</span>
+                                            <a href="portfolio-single.html">View Work</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12 custom-grid IllustAtor Marketing wow zoomIn"
+                                data-wow-duration="2000ms">
+                                <div class="">
+                                    <div class="wpo-protfolio-single">
+                                        <div class="wpo-protfolio-img">
+                                            <img src="assets/images/protfolio/img-4.jpg" alt="">
+                                        </div>
+                                        <div class="wpo-protfolio-text">
+                                            <h2>Web Design</h2>
+                                            <span>Illustration . Art Direction</span>
+                                            <a href="portfolio-single.html">View Work</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div> <!-- end row -->
-            </div> <!-- end container -->
+            </div>
+        </div>
+
+        <!-- start of wpo-site-footer-section -->
+
+        <!-- wpo-partners-area-start -->
+        <section class="partners-section">
+            <h2 class="hidden">partner</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="partner-grids partners-slider owl-carousel clearfix">
+                            <div class="grid">
+                                <img src="assets/images/partners/1.png" alt="">
+                            </div>
+                            <div class="grid">
+                                <img src="assets/images/partners/2.png" alt="">
+                            </div>
+                            <div class="grid">
+                                <img src="assets/images/partners/3.png" alt="">
+                            </div>
+                            <div class="grid">
+                                <img src="assets/images/partners/4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end contianer -->
         </section>
-        <!-- end error-404-section -->
+        <!-- partners-area-end -->
         <!-- start wpo-site-footer -->
         <footer class="wpo-site-footer-s2">
             <div class="upper-footer">
@@ -157,8 +271,8 @@
                                         <li><a href="https://www.facebook.com/Rahul-Verma"><i class="ti-facebook"></i></a></li>
                                         <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/rahul-verma-898186217"><i class="ti-linkedin"></i></a></li>
-                                         <li><a href="https://www.instagram.com/cosmik_pulse"><i class="ti-instagram"></i></a></li>
-
+                                        <li><a href="https://www.instagram.com/cosmik_pulse"><i class="ti-instagram"></i></a></li>
+                                        
                                     </ul>
                                 </div>
                             </div>
@@ -169,7 +283,7 @@
                                     <h3>Navigation</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="about/index">About us</a></li>
+                                    <li><a href="about.html">About us</a></li>
                                    
                                     <li><a href="#video">Video Guide</a></li>
                                     
