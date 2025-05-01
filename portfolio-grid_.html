@@ -24,6 +24,40 @@
     <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
     <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
     <link href="assets/sass/style.css" rel="stylesheet">
+    <style>
+        /* .wpo-protfolio-img video {
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            object-fit: cover;
+        } */
+        /* .wpo-protfolio-img {
+            position: relative;
+            overflow: hidden;
+            aspect-ratio: 1;
+        }
+        .wpo-protfolio-img img,
+        .wpo-protfolio-img video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        } */
+        video {
+  max-height: 80vh;        /* limits video height to 80% of viewport */
+  max-width: 300px;        /* limits video width so it doesn't dominate layout */
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;          /* center it horizontally */
+  border-radius: 10px;
+}
+
+
+    </style>
 </head>
 
 <body>
@@ -61,8 +95,8 @@
                             </div>
                             <div class="col-lg-2 col-md-6 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand site-logo" href="/"><img
-                                            src="assets/images/logo.png" alt="">Rahul Verma</a>
+                                    <a class="navbar-brand site-logo" href="/"><img src="assets/images/logo.png"
+                                            alt="">Rahul Verma</a>
                                 </div>
                             </div>
                             <div class="col-lg-8 col-md-1 col-1">
@@ -120,106 +154,87 @@
             <div class="container">
                 <div class="row">
                     <div class="col col-xs-12 sortable-gallery">
-                        <div class="gallery-filters">
-                            <ul>
-                                <li><a data-filter="*" href="#" class="current">All Product</a></li>
-                                <li><a data-filter=".BranDing" href="#">Branding </a></li>
-                                <li><a data-filter=".IllustAtor" href="#">Illustator</a></li>
-                                <li><a data-filter=".3d" href="#">3D</a></li>
-                                <li><a data-filter=".Marketing" href="#">Marketing</a></li>
-                            </ul>
-                        </div>
+
                         <div class="gallery-container gallery-fancybox masonry-gallery row">
                             <div class="col-lg-6 col-md-6 col-12 custom-grid IllustAtor 3d Marketing wow zoomIn"
                                 data-wow-duration="2000ms">
                                 <div class="">
                                     <div class="wpo-protfolio-single">
                                         <div class="wpo-protfolio-img">
-                                            <img src="assets/images/protfolio/img-2.jpg" alt="">
-                                        </div>
-                                        <div class="wpo-protfolio-text">
-                                            <h2>Minimalism</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <a href="portfolio-single.html">View Work</a>
-                                        </div>
+                                            <video autoplay muted loop autoplay muted loop controls>
+                                                <source src="assets/videos/1.mp4" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>                                        </div>                                      
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-12 custom-grid BranDing IllustAtor 3d wow zoomIn"
-                                data-wow-duration="2000ms">
-                                <div class="">
-                                    <div class="wpo-protfolio-single">
-                                        <div class="wpo-protfolio-img">
-                                            <img src="assets/images/protfolio/img-6.jpg" alt="">
-                                        </div>
-                                        <div class="wpo-protfolio-text">
-                                            <h2>Abstract Art</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <a href="portfolio-single.html">View Work</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
+                           
                             <div class="col-lg-6 col-md-6 col-12 custom-grid IllustAtor Marketing wow zoomIn"
-                                data-wow-duration="2000ms">
-                                <div class="">
-                                    <div class="wpo-protfolio-single">
-                                        <div class="wpo-protfolio-img">
-                                            <img src="assets/images/protfolio/img-7.jpg" alt="">
-                                        </div>
-                                        <div class="wpo-protfolio-text">
-                                            <h2>3D Project</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <a href="portfolio-single.html">View Work</a>
-                                        </div>
+                            data-wow-duration="2000ms">
+                            <div class="">
+                                <div class="wpo-protfolio-single">
+                                    <div class="wpo-protfolio-img">
+                                        <video autoplay muted loop controls>
+                                            <source src="assets/videos/3.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-12 custom-grid BranDing 3d wow zoomIn"
-                                data-wow-duration="2000ms">
-                                <div class="">
-                                    <div class="wpo-protfolio-single">
-                                        <div class="wpo-protfolio-img">
-                                            <img src="assets/images/protfolio/img-8.jpg" alt="">
-                                        </div>
-                                        <div class="wpo-protfolio-text">
-                                            <h2>Modern BG</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <a href="portfolio-single.html">View Work</a>
-                                        </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 custom-grid IllustAtor Marketing wow zoomIn"
+                            data-wow-duration="2000ms">
+                            <div class="">
+                                <div class="wpo-protfolio-single">
+                                    <div class="wpo-protfolio-img">
+                                        <video autoplay muted loop controls>
+                                            <source src="assets/videos/4.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-12 custom-grid IllustAtor Marketing wow zoomIn"
-                                data-wow-duration="2000ms">
-                                <div class="">
-                                    <div class="wpo-protfolio-single">
-                                        <div class="wpo-protfolio-img">
-                                            <img src="assets/images/protfolio/img-5.jpg" alt="">
-                                        </div>
-                                        <div class="wpo-protfolio-text">
-                                            <h2>Product Design</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <a href="portfolio-single.html">View Work</a>
-                                        </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 custom-grid IllustAtor Marketing wow zoomIn"
+                            data-wow-duration="2000ms">
+                            <div class="">
+                                <div class="wpo-protfolio-single">
+                                    <div class="wpo-protfolio-img">
+                                        <video autoplay muted loop controls>
+                                            <source src="assets/videos/5.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-12 custom-grid IllustAtor Marketing wow zoomIn"
-                                data-wow-duration="2000ms">
-                                <div class="">
-                                    <div class="wpo-protfolio-single">
-                                        <div class="wpo-protfolio-img">
-                                            <img src="assets/images/protfolio/img-4.jpg" alt="">
-                                        </div>
-                                        <div class="wpo-protfolio-text">
-                                            <h2>Web Design</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <a href="portfolio-single.html">View Work</a>
-                                        </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 custom-grid IllustAtor Marketing wow zoomIn"
+                            data-wow-duration="2000ms">
+                            <div class="">
+                                <div class="wpo-protfolio-single">
+                                    <div class="wpo-protfolio-img">
+                                        <video autoplay muted loop controls>
+                                            <source src="assets/videos/6.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 custom-grid IllustAtor Marketing wow zoomIn"
+                        data-wow-duration="2000ms">
+                        <div class="">
+                            <div class="wpo-protfolio-single">
+                                <div class="wpo-protfolio-img">
+                                    <video autoplay muted loop autoplay muted loop controls>
+                                        <source src="assets/videos/2.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                         </div>
                     </div>
                 </div> <!-- end row -->
@@ -261,18 +276,21 @@
                         <div class="col col-lg-4 col-md-6 col-12">
                             <div class="widget about-widget">
                                 <div class="logo widget-title">
-                                    <a class="site-logo" href="/"><img src="assets/images/logo.png"
-                                            alt="">Rahul Verma</a>
+                                    <a class="site-logo" href="/"><img src="assets/images/logo.png" alt="">Rahul
+                                        Verma</a>
                                 </div>
                                 <p>Welcome and open yourself to your truest love this year with us! With the Release
                                     Process</p>
                                 <div class="social-icons">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/Rahul-Verma"><i class="ti-facebook"></i></a></li>
+                                        <li><a href="https://www.facebook.com/Rahul-Verma"><i
+                                                    class="ti-facebook"></i></a></li>
                                         <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/rahul-verma-898186217"><i class="ti-linkedin"></i></a></li>
-                                        <li><a href="https://www.instagram.com/cosmik_pulse"><i class="ti-instagram"></i></a></li>
-                                        
+                                        <li><a href="https://www.linkedin.com/in/rahul-verma-898186217"><i
+                                                    class="ti-linkedin"></i></a></li>
+                                        <li><a href="https://www.instagram.com/cosmik_pulse"><i
+                                                    class="ti-instagram"></i></a></li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -284,9 +302,9 @@
                                 </div>
                                 <ul>
                                     <li><a href="about.html">About us</a></li>
-                                   
+
                                     <li><a href="#video">Video Guide</a></li>
-                                    
+
                                 </ul>
                             </div>
                         </div>
@@ -354,6 +372,7 @@
     <script src="assets/js/jquery-plugin-collection.js"></script>
     <!-- Custom script for this template -->
     <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>
