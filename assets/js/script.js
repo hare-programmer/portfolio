@@ -761,5 +761,5 @@
         }, 200));
     });
 
-
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
 })(window.jQuery);
