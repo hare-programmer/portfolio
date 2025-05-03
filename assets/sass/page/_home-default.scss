@@ -394,51 +394,6 @@
 				}
 			}
 
-			a{
-				display: flex;
-				align-items: center;
-				justify-content: center;
-                color: $white;
-				font-weight: 700;
-				font-size: 16px;
-				line-height: 19px;
-				padding-left: 30px;
-				position: relative;
-				display: inline-block;
-
-				@media(max-width:1399px){
-					font-size: 15px;
-				}
-
-				// &:before{
-				// 	position: absolute;
-				// 	left: -5px;
-    			// 	top: 1px;
-				// 	content: "\f10d";
-				// 	font-family: 'Flaticon';
-				// 	transition: all .3s;
-				// }
-				
-				&:hover{
-					// color: $theme-primary-color-s2;
-
-					&:before{
-						left: 0;
-					}
-				}
-			}
-
-			&:hover{
-				.icon{
-					background: $theme-primary-color;
-                    
-					.fi{
-						&:before{
-							color: $white;
-						}
-					}
-				}
-			}
 		}
 	}
 }
@@ -606,40 +561,7 @@
 							text-align: center;	
 							margin-top: 10px;
 						}
-						a{
-							display: flex;
-							align-items: center;
-							justify-content: center;
-							color: $white;
-							font-weight: 700;
-							font-size: 16px;
-							line-height: 19px;
-							padding-left: 30px;
-							position: relative;
-							display: inline-block;
-
-							@media(max-width:991px){
-								font-size: 14px;
-								padding-left: 15px;
-							}
-	
-							&:before{
-								position: absolute;
-								left: -5px;
-								top: 1px;
-								content: "\f10d";
-								font-family: 'Flaticon';
-								transition: all .3s;
-							}
-							
-							&:hover{
-								color: $theme-primary-color-s2;
-			
-								&:before{
-									left: 0;
-								}
-							}
-						}
+					
 					}
 					
 				}
