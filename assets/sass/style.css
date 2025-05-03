@@ -4730,6 +4730,10 @@ img {
     text-align: center;
   }
 }
+.wpo-work-area .wpo-work-wrap .wpo-work-item ul li.logo img,
+.wpo-work-area-s2 .wpo-work-wrap .wpo-work-item ul li.logo img {
+  border-radius: 4rem;
+}
 .wpo-work-area .wpo-work-wrap .wpo-work-item ul li.position,
 .wpo-work-area-s2 .wpo-work-wrap .wpo-work-item ul li.position {
   font-weight: 700;
