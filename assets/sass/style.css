@@ -4599,10 +4599,6 @@ img {
     font-size: 15px;
   }
 }
-.wpo-service-area .wpo-service-wrap .wpo-service-item a:hover:before,
-.wpo-service-area-s2 .wpo-service-wrap .wpo-service-item a:hover:before {
-  left: 0;
-}
 .wpo-service-area .wpo-service-wrap .wpo-service-item:hover .icon,
 .wpo-service-area-s2 .wpo-service-wrap .wpo-service-item:hover .icon {
   background: #59C378;
