@@ -728,6 +728,7 @@
         smallNavFunctionality();
 
         smoothScrolling($("#navbar > ul > li > a[href^='#'], .link-widget > ul > li > a[href^='#'] "), $(".wpo-site-header .navigation").innerHeight());
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
     });
 
 
@@ -761,5 +762,4 @@
         }, 200));
     });
 
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
 })(window.jQuery);
