@@ -1350,14 +1350,6 @@
 					position: relative;
 					display: inline-block;
 
-					&:before {
-						position: absolute;
-						left: -5px;
-						top: 1px;
-						content: "\f10d";
-						font-family: "Flaticon";
-						transition: all 0.3s;
-					}
 
 					&:hover{
 						color: $theme-primary-color-s2;
